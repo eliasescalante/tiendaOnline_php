@@ -24,3 +24,9 @@ El foco principal de la versión actual es el desarrollo del *frontend* y la vis
 ## 📁 Estructura del Proyecto
 
     Patron MVC
+
+## 🖼️ Capturas del proyecto
+
+[![](https://github.com/eliasescalante/tiendaOnline_php/blob/main/assets/img/cap%201.png)](LICENSE)
+[![](https://github.com/eliasescalante/tiendaOnline_php/blob/main/assets/img/cap%202.png))]()
+[![](https://github.com/eliasescalante/tiendaOnline_php/blob/main/assets/img/cap%203.png))]()
