@@ -1,4 +1,4 @@
-# 🛍️ Tienda Online PHP | API_1
+# 🛍️ Tienda Online PHP | API 4
 
 [![Estado del Proyecto](https://img.shields.io/badge/STATUS-EN%20DESARROLLO-yellow)](https://github.com/eliasescalante/tiendaOnline_php/commits/main)
 [![Licencia](https://img.shields.io/badge/LICENSE-MIT-blue.svg)](LICENSE)
