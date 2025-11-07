@@ -1,0 +1,115 @@
+/* Fondo general */
+body {
+    background-color: #e5e5e5;
+    font-family: "Inter", Arial, sans-serif;
+    color: #222;
+}
+
+/* Header */
+.header {
+    background: #1a1a1a;
+    color: white;
+    border-bottom: 3px solid #ffcc00;
+}
+
+/* Tarjetas uniformes */
+.product-card {
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    transition: all 0.2s ease;
+    height: 100%;              /* Hace que TODAS tengan la misma altura */
+    display: flex;
+    flex-direction: column;    /* Acomoda internamente */
+}
+
+/* Imagen uniforme */
+.product-img-wrapper {
+    height: 180px;             /* Igual altura para todas */
+    overflow: hidden;
+    border-bottom: 2px solid #ddd;
+}
+
+.product-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Cuerpo de la card */
+.card-body {
+    flex: 1;                   /* Ocupa el espacio exacto */
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text {
+    flex-grow: 5;              /* Empuja contenido hacia abajo */
+    color: #333;
+}
+
+/* Hover */
+.product-card:hover {
+    border-color: #ffcc00;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+/* Footer */
+.footer {
+    background: linear-gradient(135deg, #0f0f0f, #1f1f1f);
+    color: #f0f0f0;
+    border-top: 4px solid #ffcc00;
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+}
+
+.footer strong {
+    color: #ffcc00;
+    font-weight: 700;
+}
+
+.footer span {
+    color: #bbbbbb;
+}
+
+/* Estilo Base para todos los botones en el NAV */
+nav .btn {
+    /* Padding más generoso para un mejor clic */
+    padding: 0.5rem 1.2rem; 
+    font-weight: 600;
+    border-radius: 8px; /* Bordes ligeramente redondeados */
+    transition: all 0.3s ease; /* Transiciones suaves para hover */
+    letter-spacing: 0.5px;
+}
+
+/* 1. Botones Principales (Rellenos - .btn-dark) */
+nav .btn-dark {
+    background-color: #007bff; /* Color primario azul */
+    border-color: #007bff;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.3); /* Sombra para profundidad */
+}
+
+nav .btn-dark:hover {
+    background-color: #0056b3; /* Tono más oscuro al pasar el mouse */
+    border-color: #0056b3;
+    transform: translateY(-2px); /* Efecto 3D sutil */
+    box-shadow: 0 6px 10px rgba(0, 123, 255, 0.4); /* Sombra que crece */
+}
+
+/* 2. Botones Secundarios (Outline - .btn-outline-dark) */
+nav .btn-outline-dark {
+    color: #007bff; /* Color del texto es el primario */
+    border-color: #007bff; /* Color del borde es el primario */
+    background-color: transparent;
+}
+
+nav .btn-outline-dark:hover {
+    background-color: #007bff; /* Se rellena con color primario */
+    color: white; /* El texto se vuelve blanco */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+}
